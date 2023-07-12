@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Geekfolio
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
 /* Variables
 -----------------------------------------------------------------*/
 /* Typography
@@ -281,11 +272,11 @@ figure {
 }
 
 .main-color2 {
-  color: #f08f74 !important;
+  color: #ff6600 !important;
 }
 
 .main-colorbg2 {
-  background-color: #f08f74;
+  background-color: #ff6600;
 }
 
 .main-color3 {
@@ -487,7 +478,7 @@ img {
 }
 
 .butn-circle.colorbg-2:after {
-  background: #f08f74;
+  background: #ff6600;
 }
 
 .butn-circle.colorbg-3:after {
@@ -1328,7 +1319,7 @@ img {
 
 .stroke {
   color: transparent;
-  -webkit-text-stroke: 1px rgb(240, 143, 116);
+  -webkit-text-stroke: 1px #ff6600;
 }
 
 .dark-text .stroke,
@@ -3911,7 +3902,7 @@ body.loaded {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #f08f74;
+  background: #ff6600;
 }
 
 .sec-lg-head .dot-titl:before {
@@ -4068,7 +4059,7 @@ body.loaded {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background: #f08f74;
+  background: #ff6600;
   z-index: -1;
 }
 
@@ -4497,7 +4488,7 @@ body.loaded {
 }
 
 .intro-corp .imgs .img1.main-color2:after {
-  background: #f08f74;
+  background: #ff6600;
 }
 
 .intro-corp .imgs .img1.main-color3:after {
@@ -4936,7 +4927,7 @@ body.loaded {
 }
 
 .blog-list-half .item .cont .tags a:hover {
-  background: #f08f74;
+  background: #ff6600;
 }
 
 .blog-list-half .item .cont .tags.colorbg a:hover {
@@ -5635,7 +5626,7 @@ body.loaded {
 }
 
 .approach-carso .swiper-slide:hover {
-  border-color: #f08f74;
+  border-color: #ff6600;
 }
 
 .approach-carso .item .stroke {
