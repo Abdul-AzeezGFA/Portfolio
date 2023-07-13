@@ -1,5 +1,5 @@
 <?php
-if (isset($_REQUEST['name']) && isset($_REQUEST['email']) && isset($_REQUEST['subject']) && isset($_REQUEST['text'])) {
+if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['text'])) {
     // Set the email addresses where you want to receive the texts
     $email1 = 'message.abdulazeez@gmail.com';
     $email2 = 'adeleyeasquare@gmail.com';
