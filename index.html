@@ -1409,7 +1409,7 @@
                 </div>
                 <div class="col-lg-6 offset-lg-1 valign">
                   <div class="full-width">
-                    <form id="email-form" method="post" action="email.php">
+                    <form id="email-form" method="post" action="api/email.php">
                       <div class="messages"></div>
 
                       <div class="controls row">
@@ -1593,7 +1593,7 @@
       
         $.ajax({
           type: 'POST',
-          url: 'email.php', // URL of the processing file
+          url: 'api/email.php', // URL of the processing file
           data: formData,
           success: function(response) {
           alert("Your Message has been sent. You'll receive a reply from me via Email as soon as possible. Thanks."); // Output the response from form.php
