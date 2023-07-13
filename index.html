@@ -1409,7 +1409,7 @@
                 </div>
                 <div class="col-lg-6 offset-lg-1 valign">
                   <div class="full-width">
-                    <form id="contact-form" method="post" action="email.php">
+                    <form id="email-form" method="post" action="email.php">
                       <div class="messages"></div>
 
                       <div class="controls row">
@@ -1586,7 +1586,7 @@
 
     <script>
       $(document).ready(function() {
-        $('#contact-form').submit(function(event) {
+        $('#email-form').submit(function(event) {
         event.preventDefault(); // Prevent form submission
       
         var formData = $(this).serialize(); // Serialize form data
