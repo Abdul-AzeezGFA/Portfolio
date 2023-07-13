@@ -1,16 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: GeekFolio
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-
-
 
 $(function () {
 
@@ -684,7 +671,7 @@ $(window).on("load", function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "email.php";
+            var url = "contact.php";
 
             $.ajax({
                 type: "POST",
