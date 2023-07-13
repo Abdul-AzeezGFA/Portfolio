@@ -1,15 +1,15 @@
 <?php
-if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['text'])) {
+if (isset($_GET['name']) && isset($_GET['email']) && isset($_GET['subject']) && isset($_GET['text'])) {
     // Set the email addresses where you want to receive the texts
     $email1 = 'message.abdulazeez@gmail.com';
     $email2 = 'adeleyeasquare@gmail.com';
     
 
     // Sanitize and validate form data
-    $name = sanitizeInput($_POST['name']);
-    $email = sanitizeEmail($_POST['email']);
-    $subject = sanitizeInput($_POST['subject']);
-    $text = sanitizeInput($_POST['text']);
+    $name = sanitizeInput($_GET['name']);
+    $email = sanitizeEmail($_GET['email']);
+    $subject = sanitizeInput($_GET['subject']);
+    $text = sanitizeInput($_GET['text']);
 
     if ($name && $email && $text) {
         // Set up email headers
