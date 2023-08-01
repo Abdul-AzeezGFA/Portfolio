@@ -94,9 +94,9 @@ Template Name: Abdul-Azeez - Ajax Portfolio HTML Template
 }
 :root {
   --body-font: "Poppins", sans-serif;
-  --heading-font: "Excon", sans-serif;
+  --heading-font: "Poppins", sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
-  --font-pre: "Courier 10 Pitch", Courier, monospace;
+  --font-pre: "Poppins", sans-serif;
   --font-size-base: 15px;
   --font-size-h1: 40px;
   --font-size-h2: 35px;
