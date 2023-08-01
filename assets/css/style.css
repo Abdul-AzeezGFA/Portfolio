@@ -179,7 +179,8 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
   line-height: var(--line-height-base);
-  font-family: var(--body-font);
+  font-family: 'Poppins', sans-serif;
+
   font-weight: var(--font-weight-body);
   margin: 0;
   text-rendering: optimizeLegibility;
