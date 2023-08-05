@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------
-
-Template Name: Abdul-Azeez - Ajax Portfolio HTML Template
-  Template URI: http://theme.dsngrid.com/Abdul-Azeez
-  Description: Abdul-Azeez Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
-  Version: 1.0.0
-
--------------------------------------------------------------*/
-/*-----------------------------------------------------------
 
     1.  Variables
     2.  Mixins
@@ -163,7 +152,7 @@ Template Name: Abdul-Azeez - Ajax Portfolio HTML Template
 @media only screen and (max-width: 575px) {
   :root {
     --dsn-gap-container: 15px;
-    --title-heading: 47px;
+    --title-heading: 42px;
   }
 }
 
