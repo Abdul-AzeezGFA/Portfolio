@@ -45,14 +45,12 @@
     padding-right: 3.1rem;
    
   }
-}
-
-@media only screen and (max-width: 480px) {
-  .sm-pd {
+   .sm-pd {
     padding-right: 1rem;
     padding-left: 1rem;
   }
 }
+
 
 @media only screen and (max-width: 991px) {
   .v-dark-head-mobile {
