@@ -42,7 +42,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 :root,
 :root .v-light,
 :root .v-light-head {
-  --bg-color: #ede9dd;
+  --bg-color: #f9f9f9;
   --assistant-color: #efefef;
   --theme-color: #e4dcd3;
   --theme-color-font: #fff;
@@ -114,7 +114,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
   --font-size-base: 15px;
-  --font-size-h1: 45px;
+  --font-size-h1: 40px;
   --font-size-h2: 35px;
   --font-size-h3: 30px;
   --font-size-h4: 25px;
