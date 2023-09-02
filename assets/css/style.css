@@ -42,7 +42,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 :root,
 :root .v-light,
 :root .v-light-head {
-  --bg-color: #f9f9f9;
+  --bg-color: #ede9dd;
   --assistant-color: #efefef;
   --theme-color: #e4dcd3;
   --theme-color-font: #fff;
@@ -61,7 +61,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 
 :root .v-dark,
 :root .v-dark-head {
-  --bg-color: #131313;
+  --bg-color: #1a2238;
   --assistant-color: #191919;
   --theme-color: #e4e4dd;
   --font-color: #ddd;
